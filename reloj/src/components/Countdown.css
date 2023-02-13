@@ -1,0 +1,34 @@
+.countdown {
+
+    background-color: indigo;
+    height: 100px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.countdown > h2 {
+    color: chartreuse;
+
+}
+button{
+    background: none;
+        border: 1px solid whitesmoke;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: whitesmoke;
+        width: 4rem;
+        padding: 0.2rem;
+        gap: 0.1rem;
+        border-radius: 0.3rem;
+        transition: all 0.2s ease-in-out;
+        background-color: black;
+}
+button:hover {
+    color: red;
+    border: 1px solid red;
+}
